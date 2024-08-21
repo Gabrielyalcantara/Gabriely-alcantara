@@ -1,0 +1,146 @@
+   body {
+    color: white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif ;
+   }
+   
+   ul {
+     display: flex;
+     justify-content: space-between;
+     list-style-type: none;
+     align-items: center;
+   
+   }
+   
+   a {
+       color: white;
+       text-decoration: none;
+   }
+   
+   img { 
+       width: 200px;
+       height: 200px;
+       border-radius: 70%;
+       border: 5px solid rgb(220, 7, 107);
+   }
+
+   .center {
+    text-align: center;
+   }
+   h1 {
+       color: rgb(220, 7, 107);
+   }
+   .container {
+        padding: 7px 40px;
+   }
+   nav a:hover,form .botao input:hover{
+       color: rgb(220, 7, 107);
+   }
+   .botao input:hover{
+       box-shadow: 0px 0px 8px;
+       transform: scale(1.05);
+   }
+   
+   section.contatoform {
+       padding: 0px 80px;
+   
+   }
+   
+   form{
+       max-width: 500px;
+       margin: 0 auto;
+       justify-content: center;
+       flex-direction: column;
+       gap: 10px;
+       margin-top: 40px;
+   
+   }
+   form input, form textarea{
+       width: 100%;
+       background-color: rgba(51, 51, 51, 0.955) ;
+       border: 0;
+       outline: 0;
+       padding: 20px 15px;
+       border-radius: 15px;
+       color: aliceblue;
+       font-size: 18px;
+   
+   }
+   form textarea{
+       resize: none;
+       height: 110px; ;
+   }
+   form input::placeholder{
+       color: rgb(220, 7, 107);
+   }
+   .titulocontato{
+   
+       max-width: 500px;
+       margin: 0 auto;
+       justify-content: center;
+       flex-direction: column;
+       gap: 10px;
+       font-size: 33px;
+       text-align: center;
+   }
+      
+   .contact{
+       color: rgb(241, 169, 211);
+       font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+   }
+   form .botao{
+       margin-top: 20px;
+       text-align: center ;
+   }
+   form .botao input{
+     width: 120px;
+     background-color: rgb(241, 169, 211); 
+     color: black;
+     font-weight: 700;
+     cursor: pointer;
+     transition: .2s;
+   }
+   section.portfolio{
+       padding: 80px 4%;
+       box-shadow:0 0 40px 10px #ffffff1f ;
+   }
+   section.portfolio.flex{
+       justify-content:space-around ;
+   
+   }
+   .img-port{
+    width: 350px;
+    height: 250px;
+    background-size: cover;
+    background-position: 100% 0%; 
+    transition: 8s;
+    cursor: pointer;
+    border-radius: 45px;
+    position: relative;
+}
+ .img-port:hover{
+    background-position: 100% 100%; 
+}
+ .overlay{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0, 0, 0, 0.741);
+   border-radius: 40px; 
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 24px;
+   font-weight: 600;
+   color: aliceblue;
+   opacity: 0;
+   transition: .5s;
+}
+
+
+   .overlay:hover{
+       opacity: 1;
+   }
+   
